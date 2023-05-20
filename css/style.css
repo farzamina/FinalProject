@@ -284,3 +284,72 @@ nav {
     text-align: center;
     color: #87898c;
 }
+
+.help {
+    padding: 126px 0;
+    background: #f2f7ff;
+}
+
+.help_wrap {
+    display: flex;
+    gap: 53px;
+    justify-content: space-between;
+}
+
+.help_left {
+    margin-top: 48px;
+    max-width: 420px;
+}
+
+.help_title {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.323077px;
+    color: #2d2f30;
+}
+
+.help_descr {
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #8b8c8c;
+
+    margin-top: 31px;
+}
+
+.help_right {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.help_block {
+    max-width: 256px;
+    padding: 24px;
+    background: #fcfcfc;
+    box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.block_name {
+    margin-top: 18px;
+    font-family: "Playfair Display";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    color: #363940;
+}
+
+.block_descr {
+    margin-top: 10px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: #8b8c8c;
+}
+
