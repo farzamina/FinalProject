@@ -353,3 +353,67 @@ nav {
     color: #8b8c8c;
 }
 
+.matters {
+    background: url("../img/BG.jpg");
+    min-height: 356px;
+    padding: 55px 0;
+}
+
+.matters_title {
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+}
+
+.subtitle {
+    margin-top: 8px;
+
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+}
+
+.matters_wrap {
+    margin-top: 48px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.matters_num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+}
+
+.num {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+}
+
+.num_descr {
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.003em;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #ffffff;
+}
+
+.line {
+    opacity: 0.4;
+    border: 1px solid #ffffff;
+}
