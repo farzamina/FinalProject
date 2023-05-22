@@ -540,6 +540,13 @@ nav {
     border-radius: 8px;
     max-width: 219px;
     padding: 14px 36px;
+
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+    color: #f9f8f9;
+
     cursor: pointer;
 }
 
