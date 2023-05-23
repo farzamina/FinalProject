@@ -614,3 +614,32 @@ nav {
     font-feature-settings: "salt" on, "liga" off;
     color: #eeeff4;
 }
+
+footer {
+    background: #004d7b;
+    mix-blend-mode: normal;
+}
+
+.bottom {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.prava {
+    font-family: "Inter";
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "salt" on, "liga" off;
+    color: #d9dbe1;
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+}
+
+.social img {
+    display: block;
+}
