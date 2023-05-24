@@ -1,3 +1,13 @@
+const burgerButtons = document.querySelectorAll(".burger");
+const menu = document.querySelector(".right ul");
+
+burgerButtons.forEach(function (button) {
+    button.addEventListener("click", function () {
+        menu.classList.toggle("active");
+        burgerButtons.classList.toggle("active");
+    });
+});
+
 var scene = document.getElementById("scene");
 var parallaxInstance = new Parallax(scene);
 
